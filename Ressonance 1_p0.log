@@ -1,41 +1,41 @@
-Ansys Lumerical 2022 R1.4 Variational FDTD Solver Version 7.19.3044 (Linux 64bit)
- expires (month/day/year): 5/2/2023
+Ansys Lumerical 2020 R2 Variational FDTD Solver Version 7.16.2387 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
 using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
-license host: 1055@10.75.13.24
-current time: sex jul 22 14:52:44 2022
-Running on host: fotonica05-System-Product-Name
+license host: 
+current time: Mon Jul 25 00:14:46 2022
+Running on host: DESKTOP-08OE850
 All processes are communicating and ready to proceed to simulation...
-Running lms file: /opt/lumerical/v221/bin/varfdtd-engine-mpich2nem -t 1 -remote -shared-solve-license QU5TWVNDTF9DT05URVhUX0RBVEE9PEFOU1lTQ0xfQ09OVEVYVF9EQVRBPjxJRD4zOTJhYzhlZi0xNWY3LTRkYzQtYjVkMy05M2IxNDE3Y2I1YWI8L0lEPjxUWVBFPkFQUF9ERUZJTkVEPC9UWVBFPjxOQU1FPmx1bV9zdGFuZGFyZF9zb2x2ZV9zaGFyZTwvTkFNRT48SEFORExFUj41MzMxNUBmb3RvbmljYTA1LVN5c3RlbS1Qcm9kdWN0LU5hbWU8L0hBTkRMRVI+PC9BTlNZU0NMX0NPTlRFWFRfREFUQT4KQU5TWVNfQ09OVEVYVF9JRD0zOTJhYzhlZi0xNWY3LTRkYzQtYjVkMy05M2IxNDE3Y2I1YWIKQU5TWVNfQ09OVEVYVF9TRVJWRVI9NTMzMTVAZm90b25pY2EwNS1TeXN0ZW0tUHJvZHVjdC1OYW1lCg== /media/lucas/datam01/LucasLObo/Anelderessonancia/Ressonance 1.lms
+Running lms file: C:\Program Files\Lumerical\v202\bin\varfdtd-engine-msmpi.exe -t 1 -remote C:/Users/lucas/Desktop/TEEE Fotonica/Anelderessonancia/Ressonance 1.lms
 Starting meshing
-Simulation size in gridpoints: 1 x 94 x 1
+Simulation size in gridpoints: 1 x 108 x 1
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.000808 seconds of CPU time
+Meshing complete in 0.015625 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 94 x 1
+Simulation size in gridpoints: 1 x 108 x 1
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.000447 seconds of CPU time
+Meshing complete in 0 seconds of CPU time
 Starting meshing
-Simulation size in gridpoints: 1 x 94 x 1
+Simulation size in gridpoints: 1 x 108 x 1
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 0.000435 seconds of CPU time
-number of processors is 8
-processors are distributed as: 8x1x1
+Meshing complete in 0 seconds of CPU time
+number of processors is 16
+processors are distributed as: 16x1x1
 Running TE Simulation
 Starting meshing
-Simulation size in gridpoints: 1740 x 760 x 1
+Simulation size in gridpoints: 177 x 278 x 1
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 3.0968 seconds of CPU time
-74384 74384
+Meshing complete in 1.35938 seconds of CPU time
+2656 2656
 Starting meshing
-Simulation size in gridpoints: 1740 x 760 x 1
+Simulation size in gridpoints: 177 x 278 x 1
 Refined 0 mesh cells (0%)
 Completed meshing!
-Meshing complete in 3.09562 seconds of CPU time
-74560 74560
+Meshing complete in 1.35938 seconds of CPU time
+3008 3008
 finished material properties
 Selected kernel with optimization level: 0 and split-field propagation direction: 0
 -----------------------------------------
@@ -50,9 +50,32 @@ Adding TE PML BC
 Starting to add monitors to Simulation
 Adding analysis monitor
 Adding TE DFT monitor
-Adding TE DFT monitor
+Adding TE movie monitor
 Finished initialization of TE Simulation
 -----------------------------------------
 All processes are communicating and ready to proceed to simulation...
-Starting 263023 total iterations
-0% complete. Max time remaining: 1 hr, 40 mins, 37 secs. Auto Shutoff: 1
+Starting 87685 total iterations
+0% complete. Max time remaining: 3 mins, 26 secs. Auto Shutoff: 1
+1% complete. Max time remaining: 2 mins, 49 secs. Auto Shutoff: 1
+2% complete. Max time remaining: 2 mins, 52 secs. Auto Shutoff: 1
+3% complete. Max time remaining: 2 mins, 53 secs. Auto Shutoff: 1
+4% complete. Max time remaining: 2 mins, 51 secs. Auto Shutoff: 1
+5% complete. Max time remaining: 2 mins, 49 secs. Auto Shutoff: 0.985623
+6% complete. Max time remaining: 2 mins, 48 secs. Auto Shutoff: 0.998337
+8% complete. Max time remaining: 2 mins, 46 secs. Auto Shutoff: 7.27869
+8% complete. Max time remaining: 2 mins, 44 secs. Auto Shutoff: 206.682
+9% complete. Max time remaining: 2 mins, 43 secs. Auto Shutoff: 235989
+ERROR: Early termination of simulation, the electromagnetic fields are diverging.
+Please see https://kb.lumerical.com/redirect/fdtd-fix-divergence.html for how to solve this problem.
+Completed 8059 iterations, or 4.59541e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+    collecting source data
+Finished collecting data
+Simulation completed successfully at: Mon Jul 25 00:15:07 2022
+Overall wall time measurements in seconds:
+    time to mesh and initialize: 4
+    time to run FDTD simulation: 17
+    time to finalize data and save to files: 0
+    FDTD solver speed: 0 Mnodes/s
+    total FDTD solver speed on 16 processes: 0 Mnodes/s

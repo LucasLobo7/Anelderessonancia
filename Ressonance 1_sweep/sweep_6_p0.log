@@ -1,0 +1,91 @@
+Ansys Lumerical 2020 R2 Variational FDTD Solver Version 7.16.2387 (Windows 64bit)
+ expires (month/day/year): 12/31/2035
+using config file: Ansys Licensing set with ANSYSLMD_LICENSE_FILE
+license host: 
+current time: Sun Jul 24 23:31:40 2022
+Running on host: DESKTOP-08OE850
+All processes are communicating and ready to proceed to simulation...
+Running lms file: C:\Program Files\Lumerical\v202\bin\varfdtd-engine-msmpi.exe -t 1 -remote -hide C:/Users/lucas/Desktop/TEEE Fotonica/Anelderessonancia/Ressonance 1_sweep/sweep_6.lms
+Starting meshing
+Simulation size in gridpoints: 1 x 165 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 165 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0.015625 seconds of CPU time
+Starting meshing
+Simulation size in gridpoints: 1 x 165 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 0 seconds of CPU time
+number of processors is 16
+processors are distributed as: 8x2x1
+Running TE Simulation
+Starting meshing
+Simulation size in gridpoints: 350 x 199 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 7.48438 seconds of CPU time
+21536 21536
+Starting meshing
+Simulation size in gridpoints: 350 x 199 x 1
+Refined 0 mesh cells (0%)
+Completed meshing!
+Meshing complete in 5.1875 seconds of CPU time
+21344 21344
+finished material properties
+Selected kernel with optimization level: 0 and split-field propagation direction: 0
+-----------------------------------------
+Beginning initialization of TE Simulation
+Starting to add sources to simulation
+Adding TE Mode Source propagating in X
+Starting to add boundary conditions to simulation
+Adding TE PML BC
+Adding TE parallel BC
+Adding TE PML BC
+Adding TE parallel BC
+Starting to add monitors to Simulation
+Adding analysis monitor
+Adding TE DFT monitor
+Adding TE DFT monitor
+Monitor ::model::drop is outside the simulation and will not record any data
+Finished initialization of TE Simulation
+-----------------------------------------
+All processes are communicating and ready to proceed to simulation...
+Starting 87095 total iterations
+0% complete. Max time remaining: 5 mins, 37 secs. Auto Shutoff: 1
+1% complete. Max time remaining: 4 mins, 33 secs. Auto Shutoff: 1
+2% complete. Max time remaining: 4 mins, 21 secs. Auto Shutoff: 1
+4% complete. Max time remaining: 4 mins, 19 secs. Auto Shutoff: 1
+4% complete. Max time remaining: 4 mins, 17 secs. Auto Shutoff: 1
+5% complete. Max time remaining: 4 mins, 16 secs. Auto Shutoff: 0.983182
+6% complete. Max time remaining: 4 mins, 13 secs. Auto Shutoff: 0.981085
+7% complete. Max time remaining: 4 mins, 10 secs. Auto Shutoff: 0.985856
+8% complete. Max time remaining: 4 mins, 5 secs. Auto Shutoff: 0.982804
+9% complete. Max time remaining: 4 mins, 1 secs. Auto Shutoff: 0.981192
+11% complete. Max time remaining: 3 mins, 58 secs. Auto Shutoff: 1.00621
+11% complete. Max time remaining: 3 mins, 57 secs. Auto Shutoff: 0.993331
+12% complete. Max time remaining: 3 mins, 54 secs. Auto Shutoff: 0.991587
+14% complete. Max time remaining: 3 mins, 50 secs. Auto Shutoff: 1.00961
+14% complete. Max time remaining: 3 mins, 48 secs. Auto Shutoff: 1.00446
+15% complete. Max time remaining: 3 mins, 46 secs. Auto Shutoff: 2.62441
+16% complete. Max time remaining: 3 mins, 43 secs. Auto Shutoff: 3199.72
+17% complete. Max time remaining: 3 mins, 41 secs. Auto Shutoff: 31591.1
+ERROR: Early termination of simulation, the electromagnetic fields are diverging.
+Please see https://kb.lumerical.com/redirect/fdtd-fix-divergence.html for how to solve this problem.
+Completed 15027 iterations, or 8.62681e-13s of Simulation Time
+Process 0 starting to collect data
+    collecting monitor data
+Monitor ::model::drop is outside the simulation and will not record any data
+    collecting source data
+Finished collecting data
+Simulation completed successfully at: Sun Jul 24 23:32:39 2022
+Overall wall time measurements in seconds:
+    time to mesh and initialize: 13
+    time to run FDTD simulation: 46
+    time to finalize data and save to files: 0
+    FDTD solver speed: 0 Mnodes/s
+    total FDTD solver speed on 16 processes: 0 Mnodes/s
